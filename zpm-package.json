@@ -1,0 +1,17 @@
+{
+  "name": "github.com/zpm-shell/deep-dependence-test-package1",
+  "version": "1.0.0",
+  "description": "A zpm package",
+  "main": "lib/main.zsh",
+  "scripts": {
+    "start": "zpm run lib/main.zsh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "github.com/zpm-shell/deep-dependence-test-package1-1": "7b3fb1e24a5a3855c4897049d15d17d0ff3031d0",
+    "github.com/zpm-shell/deep-dependence-test-package1-2": "22d6844293556bde76d1c5e577c6b112a8ad94bf"
+  }
+}
